@@ -1,0 +1,86 @@
+#section2{
+width: 100%;
+height:850px;
+float:left;
+background-image:linear-gradient(teal,greenyellow);
+}
+#section2start{
+border:none;
+border-top: solid 2.5px black;
+}
+legend{
+text-align: center;
+font-size: 22px;
+color: black;
+font-style: italic;
+font-weight: bolder;
+}
+.divformoreplaces{
+width:100%;
+height:300px;
+float:left;
+display: flex;
+justify-content: space-around;
+}
+.moreplzdiv{
+color:transparent;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 30px;
+width:220px;
+height:150px;
+border-radius: 10px;
+box-shadow: 0px 0px 5px black;
+}
+#moreplacingimg1{
+    background-image: url(../assest/photo/andhrapradesh.png);
+  background-size: 100% 150px;
+}
+#moreplacingimg2{
+    background-image: url(../assest/photo/bangalore.webp);
+    background-size: 100% 150px;
+    
+}
+#moreplacingimg3{
+    background-image: url(../assest/photo/kerala.png);
+    background-size: 100% 150px;
+    
+}
+#moreplacingimg4{
+    background-image: url(../assest/photo/Rameshwaram.jpg);
+    background-size: 100% 150px;
+    
+}
+#moreplacingimg5{
+    background-image: url(../assest/photo/Goa.webp);
+    background-size: 100% 150px;
+    
+}
+#moreplacingimg6{
+    background-image: url(../assest/photo/anadaaman.webp);
+    background-size: 100% 150px;
+    
+}
+#moreplacingimg7{
+    background-image: url(../assest/photo/manali.png);
+    background-size: 100% 150px;
+    
+}
+#moreplacingimg8{
+    background-image: url(../assest/photo/Himachal-Pradesh.png);
+    background-size: 100% 150px;
+    
+}
+#moreplacingimg9{
+    background-image: url(../assest/photo/Charminar.png);
+    background-size: 100% 150px;
+}
+.moreplzdiv:hover{
+    filter:blur(3px);
+}
+.moreplzdiv:hover .nameplace{
+filter: blur(0px);
+color: white;
+text-shadow: 0px 0px 2px black;
+}
